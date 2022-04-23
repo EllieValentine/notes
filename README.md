@@ -6,7 +6,7 @@
 
 ## Ansible
 
-- <a href="./workingWithFiles.md">Working with files</a>;
+- <a href="./ansible/workingWithFiles.md">Working with files</a>;
 
 ## SSL Certificates
 
@@ -16,3 +16,4 @@
 
 - <a href="./bashClShortcuts.md">Command-line Shortcuts</a>;
 - <a href="./systemctlCheatSheet.md">systemctl Cheat Sheet</a>;
+- <a href="./linuxNetworkCommands.md">Linux Network Commands</a>;
