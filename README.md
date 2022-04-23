@@ -12,6 +12,7 @@
 
 - <a href="./makingSslBundle.md">Making SSL-bundle</a>;
 
-## Bash
+## Linux
 
 - <a href="./bashClShortcuts.md">Command-line Shortcuts</a>;
+- <a href="./systemctlCheatSheet.md">systemctl Cheat Sheet</a>;
