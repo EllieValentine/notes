@@ -17,3 +17,4 @@
 - <a href="./bashClShortcuts.md">Command-line Shortcuts</a>;
 - <a href="./systemctlCheatSheet.md">systemctl Cheat Sheet</a>;
 - <a href="./linuxNetworkCommands.md">Linux Network Commands</a>;
+- <a href="./linuxNotes.md">Notes</a>;
