@@ -10,7 +10,7 @@
 
 ## SSL Certificates
 
-- <a href="./makingSslBundle.md">Making SSL-bundle</a>;
+- <a href="./sslHowTo.md">SSL How to</a>;
 
 ## Linux
 
