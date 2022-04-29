@@ -1,32 +1,33 @@
 # Kill
 
-## -9 (SIGKILL) 
+## -9 (SIGKILL)
 
 immidiately stop the process; the most unsafe way to kill a process that terminates a process without saving; use for misbehaving processes.
 
-## -15 (SIGTERM) 
+## -15 (SIGTERM)
 
 a graceful shutdown; the default and safest way to kill a process.
 
 ## usage
 
-### kill -9 1234 
+### kill -9 1234
+
 same as
+
 ### kill -SIGKILL 1234
 
 ---
-
-  
 
 # Permissions
 
 ## If root can't remove its file, check attributes
 
-### # lsattr 
+### # lsattr
 
 if you notice i (immutable) or a (append-only), remove those attributes:
 
 ### # chattr -i [filename]
+
 ### # chattr -a [filename]
 
 ---
@@ -36,7 +37,6 @@ if you notice i (immutable) or a (append-only), remove those attributes:
 ## Disable root login (4 ways)
 
 ### 1. Set "PermitRootLogin no" in /etc/ssh/sshd_config
-
 
 ### 2. Change the Login Shell to /usr/sbin/nologin in /etc/passwd
 
@@ -54,3 +54,21 @@ It locks the password for the root user until a new one is set
 ### # sudo usermod -L root
 
 It locks the password for the root user until a new one is set
+
+---
+
+# Performance
+
+## CPU
+
+### top command
+
+Continuously monitoring top CPU consuming processes in Linux
+
+### # top
+
+### htop utility
+
+Same monitoring with nice visualization and preset filters
+
+### # htop
