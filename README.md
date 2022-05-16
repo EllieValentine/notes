@@ -18,3 +18,8 @@
 - <a href="./systemctlCheatSheet.md">systemctl Cheat Sheet</a>;
 - <a href="./linuxNetworkCommands.md">Linux Network Commands</a>;
 - <a href="./linuxNotes.md">Notes</a>;
+- <a href="./cron.md">Cron</a>;
+
+## JavaScript
+
+- <a href="./javascript/workingWithFiles.md">Working with files</a>;

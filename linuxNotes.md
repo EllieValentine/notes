@@ -72,3 +72,17 @@ Continuously monitoring top CPU consuming processes in Linux
 Same monitoring with nice visualization and preset filters
 
 ### # htop
+
+# SSH
+
+## Quiet mode
+
+To suppress most warning and diagnostic messages add -q
+
+### #ssh -q USER@SERVER "YOUR COMMAND"
+
+## sudo via SSH
+
+Add -t to the SSH command
+
+### #ssh -t USER@SERVER "sudo YOUR COMMAND"
