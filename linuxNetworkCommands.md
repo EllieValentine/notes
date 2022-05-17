@@ -1,30 +1,29 @@
 # Linux Network Commands
 
-
-##  host
+## host
 
 DNS query
 
-### # host google.com
+> host google.com
 
-## - netstat
+## netstat
 
 Network information
 
- | Option | Description | 
- | ------ | ------- | 
- | -t or --tcp | Display TCP information. | 
- | -u or --udp | Display UDP information. | 
- | -r or --route | Display the routing table. | 
- | -v or --verbose | Verbose; display additional information. | 
- | -i or --interfaces | Display information based on a specific interface. | 
- | -a or --all | Apply to all. | 
- | -s or --statistics | Display statistics for the output. | 
+| Option             | Description                                        |
+| ------------------ | -------------------------------------------------- |
+| -t or --tcp        | Display TCP information.                           |
+| -u or --udp        | Display UDP information.                           |
+| -r or --route      | Display the routing table.                         |
+| -v or --verbose    | Verbose; display additional information.           |
+| -i or --interfaces | Display information based on a specific interface. |
+| -a or --all        | Apply to all.                                      |
+| -s or --statistics | Display statistics for the output.                 |
 
-### # netstat -ta
+> netstat -ta
 
 ## nslookup
 
-simple DNS queries 
+simple DNS queries
 
-### # nslookup google.com
+> nslookup google.com

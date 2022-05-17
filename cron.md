@@ -2,19 +2,21 @@
 
 ## Schema
 
-### .---------------- minute (0 - 59)
+<pre>
+ .---------------- minute (0 - 59)
 
-### | .-------------- hour (0 - 23)
+ | .-------------- hour (0 - 23)
 
-### | | .------------ day of month (1 - 31)
+ | | .------------ day of month (1 - 31)
 
-### | | | .---------- month (1 - 12) OR jan,feb,mar ...
+ | | | .---------- month (1 - 12) OR jan,feb,mar ...
 
-### | | | | .-------- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue ...
+ | | | | .-------- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue ...
 
-### | | | | |
+ | | | | |
 
-### \* \* \* \* \* command to be executed
+ * * * * * command to be executed
+</pre>
 
 ## Cron Expressions Allowed Fields and Values
 
@@ -30,15 +32,15 @@ Table A-1 Cron Expressions Allowed Fields and Values
 | Day of week  | Y        | 1-7 or SUN-SAT     | , - \* ? / L C #           |
 | Year         | N        | empty or 1970-2099 | , - \* /                   |
 
-#### Special Characters:
+Special Characters:
 
-#### \* any value
+\* any value
 
-#### \, value list separator
+\, value list separator
 
-#### \- range of values
+\- range of values
 
-#### \/ step values
+\/ step values
 
 ## Examples
 
