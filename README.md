@@ -7,6 +7,7 @@
 ## Ansible
 
 - <a href="./ansible/workingWithFiles.md">Working with files</a>;
+- <a href="./ansible/findModule.md">Using the Find module</a>;
 
 ## SSL Certificates
 
