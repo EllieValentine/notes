@@ -16,11 +16,12 @@
 
 ## Linux
 
-- <a href="./bashClShortcuts.md">Command-line Shortcuts</a>;
-- <a href="./systemctlCheatSheet.md">systemctl Cheat Sheet</a>;
-- <a href="./linuxNetworkCommands.md">Linux Network Commands</a>;
-- <a href="./linuxNotes.md">Notes</a>;
-- <a href="./cron.md">Cron</a>;
+- <a href="./linux/bashClShortcuts.md">Command-line Shortcuts</a>;
+- <a href="./linux/systemctlCheatSheet.md">systemctl Cheat Sheet</a>;
+- <a href="./linux/linuxNetworkCommands.md">Linux Network Commands</a>;
+- <a href="./linux/linuxNotes.md">Notes</a>;
+- <a href="./linux/cron.md">Cron</a>;
+- <a href="./linux/debugBashScripts.md">How to degug Bash scripts</a>;
 
 ## JavaScript
 
