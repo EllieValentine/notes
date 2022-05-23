@@ -9,6 +9,7 @@
 - <a href="./ansible/copyModule.md">Copy module</a>;
 - <a href="./ansible/findModule.md">Using the Find module</a>;
 - <a href="./ansible/fileModule.md">Managing files and directories (File module)</a>;
+- <a href="./ansible/systemd.md">Manage services with systemd</a>;
 
 ## SSL Certificates
 
