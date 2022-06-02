@@ -24,3 +24,4 @@
 - <a href="./linux/cron.md">Cron</a>
 - <a href="./linux/debugBashScripts.md">How to degug Bash scripts</a>
 - <a href="./linux/regex.md">Regular expressions</a>
+- <a href="./linux/find.md">Bash Find command</a>
