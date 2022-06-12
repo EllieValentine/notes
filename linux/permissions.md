@@ -1,4 +1,4 @@
-# Linux file permissions
+# Linux file and directory permissions
 
 ## Permissions diagram
 
@@ -76,7 +76,7 @@ Values
 | 6           | rw-                  | Read and write permissions           |
 | 7           | rwx                  | Read, write, and execute permissions |
 
-## Most common permissions
+## Most common file permissions
 
 | Value | Representation | Meaning                                                                                      |
 | ----- | -------------- | -------------------------------------------------------------------------------------------- |
@@ -86,3 +86,11 @@ Values
 | 666   | rw-rw-rw       | All users may read and write the file.                                                       |
 | 644   | rw-r--r--      | The owner may read and write a file. Others may only read the file.                          |
 | 600   | rw-------      | Only the owner may read and write to a file. No one else can read, write or execute the file |
+
+## Most common directory permissions
+
+| Value | Representation | Meaning                                                                               |
+| ----- | -------------- | ------------------------------------------------------------------------------------- |
+| 777   | rwxrwxrwx      | No restrictions on permissions.                                                       |
+| 755   | rwxr-xr-x      | The owner has full access. Others may list files, but cannot create nor delete files. |
+| 700   | rwx------      | Only the owner has full access. Others can't even list files.                         |

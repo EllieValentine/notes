@@ -25,4 +25,4 @@
 - <a href="./linux/debugBashScripts.md">How to degug Bash scripts</a>
 - <a href="./linux/regex.md">Regular expressions</a>
 - <a href="./linux/find.md">Bash Find command</a>
-- <a href="./linux/permissions.md">Linux file permissions</a>
+- <a href="./linux/permissions.md">Linux file and directory permissions</a>
