@@ -94,3 +94,39 @@ Values
 | 777   | rwxrwxrwx      | No restrictions on permissions.                                                       |
 | 755   | rwxr-xr-x      | The owner has full access. Others may list files, but cannot create nor delete files. |
 | 700   | rwx------      | Only the owner has full access. Others can't even list files.                         |
+
+# Special permissions
+
+## user + s
+
+A file with SUID always executes as the user who owns the file, regardless of the user passing the command. If the file owner doesn't have execute permissions, then use an uppercase S here.
+
+<pre>
+chmod u+s file.txt
+-rwsr-xr-x. 1 root root 2543 Jun 16 file.txt
+</pre>
+
+## group + s
+
+If set on a directory, any files created in the directory will have their group ownership set to that of the directory owner. For example, if Mike and Ann work on the same project, they can use group + s to be able to create files with their common group
+
+<pre>
+chmod g+s test
+ls -l
+drwxrwsrwx 1 user common 512 Jun 16 21:20 test
+cd test
+ls -l
+-rwsr-xr-x 1 user user  0 Apr 24 16:19 file.txt
+touch file2.txt
+ls -l
+-rwsr-xr-x 1 user common 2543 Jun 16 22:06 file2.txt
+</pre>
+
+## other + t (sticky)
+
+It restricts file deletion at the directory level. Only the owner of a file and root can remove the file within that directory.
+
+<pre>
+chmod o+t test
+drwxrwxrwt. 1 user common 512 Jun 16 21:20 test
+</pre>
