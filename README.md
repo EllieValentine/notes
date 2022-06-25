@@ -10,6 +10,7 @@
 - <a href="./ansible/findModule.md">Using the Find module</a>
 - <a href="./ansible/fileModule.md">Managing files and directories (File module)</a>
 - <a href="./ansible/systemd.md">Manage services with systemd</a>
+- <a href="./ansible/forksVsSerial.md">Ansible forks and serial</a>
 
 ## SSL Certificates
 
